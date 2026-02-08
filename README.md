@@ -86,6 +86,29 @@ Site, **AHS Asistan** adinda yapay zeka destekli bir musteri asistani icerir:
   - Hizli yanit cip'leri
 - **Guvenlik:** API anahtari Vercel Environment Variables ile saklanir, client-side'da asla gozukmez
 
+## Claude Code Skills
+
+Bu proje [Claude Code](https://claude.ai/claude-code) ile gelistirilmistir. Asagidaki ozel skill'ler kullanilmistir:
+
+```
+skills/
+├── brand-designer/       # Marka kimligi ve logo tasarimi
+├── frontend-design/      # Frontend arayuz gelistirme
+└── ship-saas-website/    # SaaS web sitesi olusturma
+```
+
+| Skill | Aciklama | Kullanim Alani |
+|-------|----------|----------------|
+| **brand-designer** | Marka kimligi, logo tasarimi ve gorsel marka sistemleri | AHS Etiket SVG logo tasarimi, renk paleti, gorsel kimlik |
+| **frontend-design** | Uretim kalitesinde, ozgun frontend arayuzleri | Responsive sayfa tasarimi, CSS animasyonlari, modern UI bilesenleri |
+| **ship-saas-website** | Profesyonel pazarlama web siteleri | Hero bolumu, urun vitrinleri, iletisim formu, SEO optimizasyonu |
+
+### Skill'ler Ne Sagliyor?
+
+- **brand-designer:** Logo varyasyonlari (ana, footer, ikon), tutarli renk sistemi (Navy, Amber, Blue) ve tipografi secimi (Outfit + DM Sans)
+- **frontend-design:** Mobil oncelikli responsive tasarim, CSS Grid/Flexbox layout, mikro-animasyonlar ve erisebilirlik standartlari
+- **ship-saas-website:** Donusum odakli sayfa yapisi, CTA butonlari, guven sinyalleri, performans optimizasyonu ve arama motoru uyumlulugu
+
 ## Kurulum
 
 ### Yerel Gelistirme
