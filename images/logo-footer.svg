@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" role="img" aria-labelledby="ahs-footer-title">
+  <title id="ahs-footer-title">AHS Etiket ve Barkod Sistemleri</title>
+  <defs>
+    <linearGradient id="footerAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8960c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0a500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Barcode accent lines -->
+  <g opacity="0.3">
+    <rect x="4" y="8" width="2" height="28" rx="1" fill="#ffffff"/>
+    <rect x="8" y="12" width="1.5" height="20" rx="0.75" fill="#ffffff"/>
+    <rect x="11.5" y="8" width="3" height="28" rx="1" fill="#ffffff"/>
+    <rect x="16.5" y="13" width="1.5" height="18" rx="0.75" fill="#ffffff"/>
+  </g>
+
+  <!-- Letter A -->
+  <g fill="#ffffff">
+    <path d="M28,42 L40,6 L43.5,6 L55.5,42 L50,42 L47.5,34.5 L36,34.5 L33.5,42 Z M37.3,30 L46.2,30 L41.8,15 Z"/>
+  </g>
+
+  <!-- Letter H -->
+  <g fill="#ffffff">
+    <rect x="62" y="6" width="5.5" height="36" rx="1"/>
+    <rect x="80" y="6" width="5.5" height="36" rx="1"/>
+    <rect x="67.5" y="20.5" width="12.5" height="5" rx="1"/>
+  </g>
+
+  <!-- Letter S -->
+  <g fill="#ffffff">
+    <path d="M116,12 C116,12 113,6 106,6 C99,6 94,10.5 94,16 C94,21.5 97.5,24 104,26 L109,27.5 C113,29 115,30.5 115,34 C115,37.5 112,40 107,40 C101.5,40 98,37 98,37 L95.5,41 C95.5,41 100,44.5 107,44.5 C115,44.5 120.5,39.5 120.5,34 C120.5,28.5 117,26 110.5,24 L105.5,22.5 C101.5,21 99.5,19.5 99.5,16 C99.5,13 102,10.5 106.5,10.5 C111,10.5 113,13 113,13 Z"/>
+  </g>
+
+  <!-- Amber swoosh arc -->
+  <path d="M25,44 Q50,50 75,50 Q100,50 125,44" stroke="url(#footerAmber)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="125" cy="43.5" r="2" fill="#e8960c"/>
+
+  <!-- Vertical separator -->
+  <line x1="142" y1="10" x2="142" y2="40" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Company name text -->
+  <text x="155" y="22" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2.5" fill="rgba(255,255,255,0.8)">ETİKET VE BARKOD SİSTEMLERİ</text>
+  <text x="155" y="38" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-weight="400" letter-spacing="1.5" fill="rgba(255,255,255,0.4)">SAN. TİC. LTD. ŞTİ.</text>
+</svg>

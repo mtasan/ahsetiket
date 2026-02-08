@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" role="img" aria-labelledby="ahs-title">
+  <title id="ahs-title">AHS Etiket ve Barkod Sistemleri</title>
+  <defs>
+    <linearGradient id="amberArc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8960c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0a500;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2b46;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1e33;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Barcode accent lines (left of A) -->
+  <g opacity="0.6">
+    <rect x="8" y="18" width="2" height="40" rx="1" fill="#1a4b7a"/>
+    <rect x="12.5" y="22" width="1.5" height="32" rx="0.75" fill="#1a4b7a"/>
+    <rect x="16" y="18" width="3" height="40" rx="1" fill="#1a4b7a"/>
+    <rect x="21" y="24" width="1.5" height="28" rx="0.75" fill="#1a4b7a"/>
+  </g>
+
+  <!-- Letter A -->
+  <g fill="url(#navyGrad)">
+    <path d="M36,58 L50.5,14 L55.5,14 L70,58 L63,58 L59.5,47 L46.5,47 L43,58 Z M48.2,41.5 L57.8,41.5 L53,24.5 Z"/>
+  </g>
+
+  <!-- Letter H -->
+  <g fill="url(#navyGrad)">
+    <rect x="78" y="14" width="6.5" height="44" rx="1"/>
+    <rect x="100" y="14" width="6.5" height="44" rx="1"/>
+    <rect x="84.5" y="32" width="15.5" height="6" rx="1"/>
+  </g>
+
+  <!-- Letter S -->
+  <g fill="url(#navyGrad)">
+    <path d="M140,20 C140,20 137,14 129,14 C121,14 115,19 115,26 C115,32 119,35 126,37.5 L132,39.5 C137,41 139.5,43 139.5,47 C139.5,51 136,54 130,54 C124,54 120,50 120,50 L117,55 C117,55 122,59.5 130,59.5 C139,59.5 145,54 145,47 C145,41 141,37.5 134,35 L128,33 C123,31 120.5,29 120.5,26 C120.5,22.5 123.5,19.5 129,19.5 C134,19.5 136.5,22.5 136.5,22.5 Z"/>
+  </g>
+
+  <!-- Amber swoosh arc under AHS -->
+  <path d="M30,62 Q53,72 90,72 Q127,72 150,62" stroke="url(#amberArc)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Small amber dot accent -->
+  <circle cx="150" cy="61" r="3" fill="#e8960c"/>
+
+  <!-- Subtitle: ETİKET VE BARKOD SİSTEMLERİ -->
+  <text x="36" y="84" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="3.5" fill="#1a4b7a">ETİKET VE BARKOD SİSTEMLERİ</text>
+
+  <!-- Divider line -->
+  <line x1="36" y1="89" x2="260" y2="89" stroke="#e8eaed" stroke-width="0.5"/>
+
+  <!-- Company suffix -->
+  <text x="36" y="97" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="7" font-weight="400" letter-spacing="2" fill="#9ca3af">SAN. TİC. LTD. ŞTİ.</text>
+</svg>
