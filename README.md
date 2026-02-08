@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ahsetiket.com">ahsetiket.com</a> &bull;
+  <a href="https://www.ahsetiket.com">www.ahsetiket.com</a> &bull;
   <a href="https://ahsetiket.vercel.app">ahsetiket.vercel.app</a>
 </p>
 
@@ -164,7 +164,7 @@ git push origin main
 - **Mobil:** +90 (530) 264 99 45
 - **E-posta:** info@ahsetiket.com
 - **Adres:** Cevizli Mah. Karadeniz Sok. No:1, Kartal / Istanbul
-- **Web:** [ahsetiket.com](https://ahsetiket.com)
+- **Web:** [www.ahsetiket.com](https://www.ahsetiket.com)
 
 ## Lisans
 
