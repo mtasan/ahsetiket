@@ -884,7 +884,7 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
 
 /* Agent Panel */
 .ai-agent-panel {
-    position: fixed; bottom: 6.5rem; right: 2rem; z-index: 998;
+    position: fixed; bottom: 6.5rem; right: 2rem; z-index: 1050;
     width: 420px; height: 580px;
     background: var(--white);
     border-radius: 24px;
@@ -1101,16 +1101,31 @@ button { border: none; cursor: pointer; font-family: inherit; background: none; 
 
 /* Mobile responsive */
 @media (max-width: 480px) {
-    .ai-agent-trigger { right: 5.5rem; }
+    .whatsapp-fab { bottom: 1.2rem; right: 1.2rem; width: 52px; height: 52px; }
+    .ai-agent-trigger { bottom: 1.2rem; right: 5rem; }
+    .ai-agent-avatar { width: 52px; height: 52px; }
     .ai-agent-greeting { display: none; }
     .ai-agent-panel {
         width: calc(100vw - 1rem);
-        right: 0.5rem; bottom: 6rem;
-        height: 75vh;
+        right: 0.5rem; bottom: 5.5rem;
+        height: 70vh;
+        max-height: calc(100dvh - 7rem);
         border-radius: 18px;
+        z-index: 1100;
     }
-    .whatsapp-fab { bottom: 1.2rem; right: 1.2rem; width: 54px; height: 54px; }
-    .ai-agent-avatar { width: 54px; height: 54px; }
+    .ai-agent-panel .agent-header {
+        padding: 1rem 1.2rem;
+    }
+    .ai-agent-panel .agent-close {
+        position: relative;
+        z-index: 1101;
+        width: 36px; height: 36px;
+    }
+}
+@media (max-width: 380px) {
+    .whatsapp-fab { bottom: 1rem; right: 1rem; width: 48px; height: 48px; }
+    .ai-agent-trigger { bottom: 1rem; right: 4.5rem; }
+    .ai-agent-avatar { width: 48px; height: 48px; }
 }
 
 /* ══════════════════════════════════════════
